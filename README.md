@@ -1,20 +1,27 @@
-#Metascan API
+# Metascan API
 
-===============
+_____________________________________
 
-##Getting Started
+## Getting Started
 
 Following are instructions to get the program running
 
-###Requirements:
+### Requirements:
 
 Python 3.6
 
-##Installation
+## Installation
 
 ```
 pip install -r requirements.txt
 ```
+## Example
+
+```
+python3 scan_file.py -f test.txt -k apikey
+```
+
+## Flags
 
 Command | Detail
 :-- | --:
@@ -27,11 +34,7 @@ Command | Detail
 -s, --share | allows file scans to be share or not
 -w, --workflow | active workflows, allowed values: mcl-metadefender-rest-sanitize-disabled-unarchive
 
-##Example
 
-```
-python3 scan_file.py -f test.txt -k apikey
-```
 
 ##Author
 
